@@ -24,5 +24,6 @@ def valid_move? (board, index)
   end
 end
 
-#board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
-#display_board(board)
+board1 = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+board0 = ["", "", "", "", "", "", "", "", ""]
+position_taken
