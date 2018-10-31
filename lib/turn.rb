@@ -24,5 +24,5 @@ def valid_move? (board, index)
   end
 end
 
-board1 = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
-board0 = ["", "", "", "", "", "", "", "", ""]
+def input_to_index(user_input)
+  user_input.to_i - 1
