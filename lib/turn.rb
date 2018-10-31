@@ -6,5 +6,21 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
-display_board(board)
+def position_taken?(board, index)
+  if board[index] == "X" || board[index] == "O"
+    true
+  elsif board[index] == ""
+    false
+  elsif board[index] == nil
+    false
+  elsif board[index] == " "
+    false    
+  end
+end
+
+def valid_move? (board, index)
+  if 
+end
+
+#board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+#display_board(board)
