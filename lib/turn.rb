@@ -26,4 +26,4 @@ end
 
 board1 = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
 board0 = ["", "", "", "", "", "", "", "", ""]
-position_taken
+
