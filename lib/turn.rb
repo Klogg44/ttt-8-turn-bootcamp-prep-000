@@ -7,3 +7,4 @@ def display_board(board)
 end
 
 board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
+display_board(board)
