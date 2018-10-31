@@ -14,12 +14,14 @@ def position_taken?(board, index)
   elsif board[index] == nil
     false
   elsif board[index] == " "
-    false    
+    false
   end
 end
 
 def valid_move? (board, index)
-  if 
+  if index.between?(0,8) && !position_taken?(board, index)
+    true
+  end
 end
 
 #board = ["X", "X", "X", "X", "X", "X", "X", "X", "X"]
