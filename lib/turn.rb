@@ -29,11 +29,13 @@ def input_to_index(user_input)
 end
 
 def move (board, index, character = "X")
-  #Nothing Yet
+  board[index] = character
 end
 
 def turn(board)
   puts "Please enter 1-9:"
   index = input_to_index(gets)
-  puts index
+  if valid_move(index)
+    move(board, index)
+  end
 end
